@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sapphire Shores | Premium Seafood & Bar</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#hero" class="logo">
+                <i class="fas fa-anchor"></i> Sapphire Shores
+            </a>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#hero" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#menu" class="nav-link">Menu</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link">Our Story</a></li>
+                <li class="nav-item"><a href="#gallery" class="nav-link">Gallery</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <a href="#reservations" class="btn btn-blue nav-btn">Book Table</a>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <section id="hero" class="hero">
+        <div class="hero-overlay">
+            <div class="container hero-content">
+                <h1 class="hero-title">Sapphire Shores</h1>
+                <p class="hero-subtitle">Ocean-to-table dining experience featuring the freshest catch and premium cocktails.</p>
+                <a href="#reservations" class="btn btn-blue">Book a Table</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="section-padding">
+        <div class="container">
+            <div class="about-wrapper">
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="Restaurant Interior">
+                </div>
+                <div class="about-content">
+                    <span class="sub-heading">Our Heritage</span>
+                    <h2>A Deep Dive into Flavor</h2>
+                    <div class="blue-line"></div>
+                    <p>Welcome to Sapphire Shores, where the rhythm of the ocean meets culinary excellence. Our journey began with a simple philosophy: respect the ocean and it will reward you with unparalleled flavor.</p>
+                    <p>Located on the harbor front, we source our ingredients daily from local fishermen. Our chefs blend coastal traditions with modern gastronomy to create dishes that are as visually stunning as they are delicious. Join us for an evening where every bite tells a story of the sea.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="menu" class="section-padding section-darker">
+        <div class="container">
+            <h2 class="section-title center">The Menu</h2>
+            
+            <div class="menu-tabs">
+                <button class="menu-tab active" data-target="starters">Raw Bar</button>
+                <button class="menu-tab" data-target="mains">Main Courses</button>
+                <button class="menu-tab" data-target="desserts">Desserts</button>
+            </div>
+
+            <div class="menu-container">
+                <div class="menu-category active" id="starters">
+                    <h3 class="category-title">Raw Bar</h3>
+                    <div class="menu-item">
+                        <div class="menu-icon"><i class="fas fa-tint"></i></div>
+                        <div class="menu-details">
+                            <div class="menu-header">
+                                <h4>Pacific Oysters (6pc)</h4>
+                                <span class="price">$18.00</span>
+                            </div>
+                            <p class="menu-desc">Freshly shucked, served with mignonette and lemon wedges.</p>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-icon"><i class="fas fa-fish"></i></div>
+                        <div class="menu-details">
+                            <div class="menu-header">
+                                <h4>Yellowfin Tuna Tartare</h4>
+                                <span class="price">$22.00</span>
+                            </div>
+                            <p class="menu-desc">Avocado mousse, sesame crisp, and soy-ginger dressing.</p>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-icon"><i class="fas fa-lemon"></i></div>
+                        <div class="menu-details">
+                            <div class="menu-header">
+                                <h4>Shrimp Cocktail</h4>
+                                <span class="price">$19.50</span>
+                            </div>
+                            <p class="menu-desc">Jumbo prawns served chilled with our signature spicy cocktail sauce.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-category" id="mains">
+                    <h3 class="category-title">Main Courses</h3>
+                    <div class="menu-item">
+                        <div class="menu-icon"><i class="fas fa-fire"></i></div>
+                        <div class="menu-details">
+                            <div class="menu-header">
+                                <h4>Grilled Sea Bass</h4>
+                                <span class="price">$34.00</span>
+                            </div>
+                            <p class="menu-desc">Whole fish grilled over charcoal, served with seasonal vegetables.</p>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-icon"><i class="fas fa-utensils"></i></div>
+                        <div class="menu-details">
+                            <div class="menu-header">
+                                <h4>Lobster Thermidor</h4>
+                                <span class="price">$45.00</span>
+                            </div>
+                            <p class="menu-desc">Classic creamy sauce with brandy, baked with gruyère cheese.</p>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-icon"><i class="fas fa-leaf"></i></div>
+                        <div class="menu-details">
+                            <div class="menu-header">
+                                <h4>Herb-Crusted Salmon</h4>
+                                <span class="price">$29.00</span>
+                            </div>
+                            <p class="menu-desc">Atlantic salmon fillet with quinoa salad and dill cream.</p>
+                        </div>
+                    </div>
+                </div>
+
+                 <div class="menu-category" id="desserts">
+                    <h3 class="category-title">Desserts</h3>
+                    <div class="menu-item">
+                        <div class="menu-icon"><i class="fas fa-cookie-bite"></i></div>
+                        <div class="menu-details">
+                            <div class="menu-header">
+                                <h4>Key Lime Pie</h4>
+                                <span class="price">$9.50</span>
+                            </div>
+                            <p class="menu-desc">Zesty lime custard on a graham cracker crust with whipped cream.</p>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-icon"><i class="fas fa-ice-cream"></i></div>
+                        <div class="menu-details">
+                            <div class="menu-header">
+                                <h4>Dark Chocolate Fondant</h4>
+                                <span class="price">$11.00</span>
+                            </div>
+                            <p class="menu-desc">Molten center served with a scoop of vanilla bean gelato.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="section-padding">
+        <div class="container">
+            <h2 class="section-title center">Visual Experience</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Pizza">
+                    <div class="gallery-caption"><h3>Signature Dishes</h3></div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Interior">
+                    <div class="gallery-caption"><h3>Elegant Atmosphere</h3></div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1551024709-8f23befc6f87?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Drinks">
+                    <div class="gallery-caption"><h3>Crafted Cocktails</h3></div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1626082927389-d31c6d304957?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Oysters">
+                    <div class="gallery-caption"><h3>Fresh Oysters</h3></div>
+                </div>
+                 <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1550966871-3ed3c47e2ce2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Plating">
+                    <div class="gallery-caption"><h3>Fine Dining</h3></div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1563245372-f21724e3a8c9?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Dessert">
+                    <div class="gallery-caption"><h3>Artisan Desserts</h3></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="reservations" class="reservations-section">
+        <div class="reservations-header">
+            <h2 class="section-title center text-white">Secure Your Seat</h2>
+            <p class="center text-white">We look forward to hosting you at Sapphire Shores.</p>
+        </div>
+        <div class="container">
+            <div class="reservation-form-container">
+                <h3>Make a Reservation</h3>
+                <p class="form-disclaimer">For private events or parties larger than 8, please contact us directly.</p>
+                
+                <form class="reservation-form">
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" placeholder="Ex: John Smith" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" placeholder="Ex: (555) 123-4567" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="date">Date</label>
+                        <input type="date" id="date" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="time">Time</label>
+                        <input type="time" id="time" required>
+                    </div>
+                    <div class="form-group full-width">
+                        <label for="people">Party Size</label>
+                        <select id="people" required>
+                            <option value="1">1 Person</option>
+                            <option value="2" selected>2 People</option>
+                            <option value="3">3 People</option>
+                            <option value="4">4 People</option>
+                            <option value="5">5 People</option>
+                            <option value="6">6 People</option>
+                            <option value="7">7 People</option>
+                            <option value="8">8 People</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn btn-gold full-width">Confirm Booking</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section-padding section-darker">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h3>Sapphire Shores</h3>
+                    <p>Premium seafood and cocktails in a modern setting.</p>
+                    
+                    <h4 class="mt-4">Contact Information</h4>
+                    <p><i class="fas fa-map-marker-alt icon-gold"></i> 88 Harbor View Drive, San Diego, CA</p>
+                    <p><i class="fas fa-envelope icon-gold"></i> reservations@sapphireshores.com</p>
+                    <p><i class="fas fa-phone icon-gold"></i> +1 (619) 555-0199</p>
+
+                    <h4 class="mt-4">Opening Hours</h4>
+                    <p>Tue - Sun: 5:00 PM - 11:00 PM</p>
+                    <p>Monday: Closed</p>
+                </div>
+                <div class="map-container">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3134.0!2d-7.8!3d38.0!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzjCsDAwJzAwLjAiTiA3wrA0OCowMC4wIlc!5e0!3m2!1spt-PT!2spt!4v1600000000000!5m2!1spt-PT!2spt" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>© 2024 Sapphire Shores. All rights reserved.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-tripadvisor"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
